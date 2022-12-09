@@ -1,0 +1,178 @@
+{
+  "groups": [
+    {
+      "name": null,
+      "repositories": {
+        "NUGET": [
+          "https://www.nuget.org/api/v2"
+        ],
+        "GITHUB": [
+          "haf/YoLo"
+        ]
+      },
+      "dependencies": [
+        {
+          "name": "Argu",
+          "version": "3.7",
+          "options": {},
+          "dependencies": [],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "DotLiquid",
+          "version": "2.0.145",
+          "options": {},
+          "dependencies": [],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Expecto",
+          "version": "5.0",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Argu",
+              "version": ">= 3.7",
+              "options": {}
+            },
+            {
+              "name": "FSharp.Core",
+              "version": ">= 4.1.12",
+              "options": {}
+            },
+            {
+              "name": "Mono.Cecil",
+              "version": ">= 0.10.0-beta5",
+              "options": {}
+            }
+          ],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "FsCheck",
+          "version": "2.9",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "FSharp.Core",
+              "version": ">= 4.1",
+              "options": {}
+            }
+          ],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "FSharp.Core",
+          "version": "4.2.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "FSharp.Data",
+          "version": "2.3.3",
+          "options": {},
+          "dependencies": [],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Mono.Cecil",
+          "version": "0.10.0-beta6",
+          "options": {},
+          "dependencies": [],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Suave",
+          "version": "2.1.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "FSharp.Core",
+              "version": ">= 4.0.0.1",
+              "options": {}
+            }
+          ],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Suave.DotLiquid",
+          "version": "2.1.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "DotLiquid",
+              "version": ">= 2.0.64",
+              "options": {}
+            },
+            {
+              "name": "FSharp.Core",
+              "version": ">= 4.0.0.1",
+              "options": {}
+            },
+            {
+              "name": "Suave",
+              "version": ">= 2.1.1",
+              "options": {}
+            }
+          ],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Runtime.Serialization.Primitives",
+          "version": "4.3",
+          "options": {
+            "restriction": "|| (&& (>= net40) (< net45) (>= netstandard1.3)) (&& (>= net40) (>= dnxcore50)) (>= net46)"
+          },
+          "dependencies": [],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Runtime.Serialization.Xml",
+          "version": "4.3",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "System.Runtime.Serialization.Primitives",
+              "version": ">= 4.3",
+              "options": {
+                "restriction": "|| (&& (>= net40) (< net45) (>= netstandard1.3)) (&& (>= net40) (>= dnxcore50)) (>= net46)"
+              }
+            }
+          ],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Unquote",
+          "version": "3.2",
+          "options": {},
+          "dependencies": [],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "YoLo.fs",
+          "version": "2ae49ac885e2f42812edbaa2dbc8d0e872653cab",
+          "options": {},
+          "dependencies": [],
+          "remote": "haf/YoLo",
+          "repository": "GITHUB"
+        }
+      ],
+      "options": {
+        "RESTRICTION": ">= net40"
+      }
+    }
+  ]
+}

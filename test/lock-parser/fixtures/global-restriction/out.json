@@ -1,0 +1,1375 @@
+{
+  "groups": [
+    {
+      "name": null,
+      "repositories": {
+        "NUGET": [
+          "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets"
+        ]
+      },
+      "dependencies": [
+        {
+          "name": "Castle.Core",
+          "version": "4.2.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "FluentAssertions",
+          "version": "4.19.4",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "JetBrains.Annotations",
+          "version": "11.1.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.NET.Test.Sdk",
+          "version": "15.0.0",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Microsoft.TestPlatform.TestHost",
+              "version": ">= 15.0",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.TestPlatform.TestHost",
+          "version": "15.5.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Moq",
+          "version": "4.7.145",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Castle.Core",
+              "version": ">= 4.2.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "snyk.Packaging",
+          "version": "1.1.0.10",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit",
+          "version": "2.3.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "xunit.analyzers",
+              "version": ">= 0.7",
+              "options": {}
+            },
+            {
+              "name": "xunit.assert",
+              "version": "2.3.1",
+              "options": {}
+            },
+            {
+              "name": "xunit.core",
+              "version": "2.3.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.abstractions",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.analyzers",
+          "version": "0.7.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.assert",
+          "version": "2.3.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.core",
+          "version": "2.3.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "xunit.extensibility.core",
+              "version": "2.3.1",
+              "options": {}
+            },
+            {
+              "name": "xunit.extensibility.execution",
+              "version": "2.3.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.extensibility.core",
+          "version": "2.3.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "xunit.abstractions",
+              "version": ">= 2.0.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.extensibility.execution",
+          "version": "2.3.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "xunit.extensibility.core",
+              "version": "2.3.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.runner.console",
+          "version": "2.3.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.runner.visualstudio",
+          "version": "2.3.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        }
+      ],
+      "options": {
+        "RESTRICTION": "== net462"
+      }
+    },
+    {
+      "name": "Cortex",
+      "repositories": {
+        "NUGET": [
+          "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget-OrionPlatform-develop"
+        ]
+      },
+      "dependencies": [
+        {
+          "name": "xunit.runner.visualstudio",
+          "version": "2.3.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nugets",
+          "repository": "NUGET"
+        },
+        {
+          "name": "apache.log4net.Extensions.Logging",
+          "version": "2.0.0.12",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "log4net",
+              "version": ">= 2.0.8",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Configuration.Abstractions",
+              "version": ">= 2.0",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Logging",
+              "version": ">= 2.0",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Logging.Abstractions",
+              "version": ">= 2.0",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+              "version": ">= 2.0",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "AsyncFriendlyStackTrace",
+          "version": "1.4.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Castle.Core",
+          "version": "4.2.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Castle.Windsor",
+          "version": "4.1.0",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Castle.Core",
+              "version": ">= 4.2",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Castle.Windsor.MsDependencyInjection",
+          "version": "3.2.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Dapper",
+          "version": "1.50.2",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "dbup4-core",
+          "version": "4.0.0-beta0003",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "dbup4-sqlserver",
+          "version": "4.0.0-beta0003",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "dbup4-core",
+              "version": ">= 4.0.0-beta0003",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "FastMember",
+          "version": "1.1.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "log4net",
+          "version": "2.0.8",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.Http.Extensions",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.Mvc",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.Mvc.ApiExplorer",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.Mvc.Core",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.Mvc.DataAnnotations",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.Mvc.Formatters.Json",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.Routing",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.Server.IISIntegration",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.Server.Kestrel",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.Server.Kestrel.Https",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.StaticFiles",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.WebSockets.Protocol",
+          "version": "0.1.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.AspNetCore.WebSockets.Server",
+          "version": "0.1.0",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Microsoft.AspNetCore.Http.Extensions",
+              "version": ">= 1.0",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.AspNetCore.WebSockets.Protocol",
+              "version": ">= 0.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Options",
+              "version": ">= 1.0",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Data.SQLite",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Caching.Memory",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Configuration",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Configuration.Abstractions",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Configuration.Binder",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Configuration.CommandLine",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Configuration.FileExtensions",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Configuration.Json",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.DependencyInjection",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.FileProviders.Abstractions",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.FileProviders.Embedded",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Logging",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Logging.Abstractions",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Logging.Console",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Logging.Debug",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Options",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+          "version": "2.0.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.Extensions.PlatformAbstractions",
+          "version": "1.1.0",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "NETStandard.Library",
+              "version": ">= 1.6.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Microsoft.NETCore.Platforms",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "NETStandard.Library",
+          "version": "2.0.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Microsoft.NETCore.Platforms",
+              "version": ">= 1.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Newtonsoft.Json",
+          "version": "10.0.3",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "OptimizedPriorityQueue",
+          "version": "4.1.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Polly",
+          "version": "5.0.6",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Swashbuckle.AspNetCore",
+          "version": "1.0.0",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Swashbuckle.AspNetCore.Swagger",
+              "version": ">= 1.0",
+              "options": {}
+            },
+            {
+              "name": "Swashbuckle.AspNetCore.SwaggerGen",
+              "version": ">= 1.0",
+              "options": {}
+            },
+            {
+              "name": "Swashbuckle.AspNetCore.SwaggerUI",
+              "version": ">= 1.0",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Swashbuckle.AspNetCore.Swagger",
+          "version": "1.1.0",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Microsoft.AspNetCore.Mvc.Core",
+              "version": ">= 1.0.4",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.AspNetCore.Mvc.Formatters.Json",
+              "version": ">= 1.0.4",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Swashbuckle.AspNetCore.SwaggerGen",
+          "version": "1.1.0",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Microsoft.AspNetCore.Mvc.ApiExplorer",
+              "version": ">= 1.0.4",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.AspNetCore.Mvc.Core",
+              "version": ">= 1.0.4",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.AspNetCore.Mvc.DataAnnotations",
+              "version": ">= 1.0.4",
+              "options": {}
+            },
+            {
+              "name": "Swashbuckle.AspNetCore.Swagger",
+              "version": ">= 1.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "Swashbuckle.AspNetCore.SwaggerUI",
+          "version": "1.1.0",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Microsoft.AspNetCore.Routing",
+              "version": ">= 1.0.4",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.AspNetCore.StaticFiles",
+              "version": ">= 1.0.4",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.FileProviders.Embedded",
+              "version": ">= 1.0.1",
+              "options": {}
+            },
+            {
+              "name": "Newtonsoft.Json",
+              "version": ">= 9.0.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Data.SqlClient",
+          "version": "4.4.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Linq.Dynamic.Core",
+          "version": "1.0.6.13",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Linq.Parallel",
+          "version": "4.3.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Net.Http",
+          "version": "4.3.3",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "System.Security.Cryptography.X509Certificates",
+              "version": ">= 4.3",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Reactive",
+          "version": "3.1.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "System.Reactive.PlatformServices",
+              "version": ">= 3.1.1",
+              "options": {}
+            },
+            {
+              "name": "System.Reactive.Windows.Threading",
+              "version": ">= 3.1.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Reactive.Core",
+          "version": "3.1.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "System.Reactive.Interfaces",
+              "version": ">= 3.1.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Reactive.Interfaces",
+          "version": "3.1.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Reactive.Linq",
+          "version": "3.1.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "System.Reactive.Core",
+              "version": ">= 3.1.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Reactive.PlatformServices",
+          "version": "3.1.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "System.Reactive.Linq",
+              "version": ">= 3.1.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Reactive.Windows.Threading",
+          "version": "3.1.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "System.Reactive.Core",
+              "version": ">= 3.1.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Runtime.Loader",
+          "version": "4.3.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Security.Cryptography.Algorithms",
+          "version": "4.3.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "System.Security.Cryptography.Primitives",
+              "version": ">= 4.3",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Security.Cryptography.Encoding",
+          "version": "4.3.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Security.Cryptography.Primitives",
+          "version": "4.3.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.Security.Cryptography.X509Certificates",
+          "version": "4.3.2",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "System.Security.Cryptography.Algorithms",
+              "version": ">= 4.3",
+              "options": {}
+            },
+            {
+              "name": "System.Security.Cryptography.Encoding",
+              "version": ">= 4.3",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "System.ValueTuple",
+          "version": "4.3.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget_libs",
+          "repository": "NUGET"
+        },
+        {
+          "name": "snyk.AssemblyInspection",
+          "version": "1.0.0.32",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Microsoft.Extensions.FileProviders.Abstractions",
+              "version": ">= 2.0",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Logging",
+              "version": ">= 2.0",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget-OrionPlatform-develop",
+          "repository": "NUGET"
+        },
+        {
+          "name": "snyk.Cortex.Client",
+          "version": "2.0.0.4949",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Newtonsoft.Json",
+              "version": ">= 9.0.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget-OrionPlatform-develop",
+          "repository": "NUGET"
+        },
+        {
+          "name": "snyk.Cortex.FluentPoller.Contracts",
+          "version": "2.0.0.615",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "snyk.Cortex.SDK",
+              "version": ">= 2.0.0.4949 < 2.0.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget-OrionPlatform-develop",
+          "repository": "NUGET"
+        },
+        {
+          "name": "snyk.Cortex.SDK",
+          "version": "2.0.0.4949",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "snyk.Cortex.Client",
+              "version": "2.0.0.4949",
+              "options": {}
+            },
+            {
+              "name": "snyk.PluginManager.Contracts",
+              "version": ">= 1.0.0.66 < 1.0.1",
+              "options": {}
+            },
+            {
+              "name": "System.Reactive",
+              "version": "3.1.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget-OrionPlatform-develop",
+          "repository": "NUGET"
+        },
+        {
+          "name": "snyk.Cortex.Tests.SDK",
+          "version": "2.0.0.4949",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "apache.log4net.Extensions.Logging",
+              "version": ">= 2.0.0.12 < 2.0.1",
+              "options": {}
+            },
+            {
+              "name": "AsyncFriendlyStackTrace",
+              "version": ">= 1.4.1 < 1.5",
+              "options": {}
+            },
+            {
+              "name": "Dapper",
+              "version": ">= 1.50.2 < 1.51",
+              "options": {}
+            },
+            {
+              "name": "dbup4-sqlserver",
+              "version": ">= 4.0.0-beta0003 < 4.1.0-beta",
+              "options": {}
+            },
+            {
+              "name": "FastMember",
+              "version": ">= 1.1 < 1.2",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.AspNetCore.Mvc",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.AspNetCore.Server.IISIntegration",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.AspNetCore.Server.Kestrel",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.AspNetCore.Server.Kestrel.Https",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.AspNetCore.StaticFiles",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.AspNetCore.WebSockets.Server",
+              "version": ">= 0.1 < 0.2",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Data.SQLite",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Caching.Memory",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Configuration",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Configuration.Abstractions",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Configuration.Binder",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Configuration.CommandLine",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Configuration.FileExtensions",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Configuration.Json",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.DependencyInjection",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Logging",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Logging.Abstractions",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Logging.Console",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Logging.Debug",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Options",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.PlatformAbstractions",
+              "version": ">= 1.1 < 1.2",
+              "options": {}
+            },
+            {
+              "name": "NETStandard.Library",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "OptimizedPriorityQueue",
+              "version": ">= 4.1.1 < 4.2",
+              "options": {}
+            },
+            {
+              "name": "Polly",
+              "version": ">= 5.0.6 < 5.1",
+              "options": {}
+            },
+            {
+              "name": "snyk.AssemblyInspection",
+              "version": ">= 1.0.0.32 < 1.0.1",
+              "options": {}
+            },
+            {
+              "name": "snyk.Cortex.SDK",
+              "version": "2.0.0.4949",
+              "options": {}
+            },
+            {
+              "name": "snyk.PluginManager",
+              "version": ">= 1.0.0.66 < 1.0.1",
+              "options": {}
+            },
+            {
+              "name": "snyk.PluginManager.Contracts",
+              "version": ">= 1.0.0.66 < 1.0.1",
+              "options": {}
+            },
+            {
+              "name": "Swashbuckle.AspNetCore",
+              "version": ">= 1.0 < 1.1",
+              "options": {}
+            },
+            {
+              "name": "System.Data.SqlClient",
+              "version": ">= 4.4 < 4.5",
+              "options": {}
+            },
+            {
+              "name": "System.Linq.Dynamic.Core",
+              "version": ">= 1.0.6.13 < 1.0.7",
+              "options": {}
+            },
+            {
+              "name": "System.Linq.Parallel",
+              "version": ">= 4.3 < 4.4",
+              "options": {}
+            },
+            {
+              "name": "System.Net.Http",
+              "version": ">= 4.3.1 < 4.4",
+              "options": {}
+            },
+            {
+              "name": "System.Reactive",
+              "version": ">= 3.1.1 < 3.2",
+              "options": {}
+            },
+            {
+              "name": "System.Runtime.Loader",
+              "version": ">= 4.3 < 4.4",
+              "options": {}
+            },
+            {
+              "name": "System.ValueTuple",
+              "version": ">= 4.3 < 4.4",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget-OrionPlatform-develop",
+          "repository": "NUGET"
+        },
+        {
+          "name": "snyk.CortexPlugin.Orion.Monitoring.Contracts",
+          "version": "2.0.0.615",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "snyk.Cortex.SDK",
+              "version": ">= 2.0.0.4949 < 2.0.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget-OrionPlatform-develop",
+          "repository": "NUGET"
+        },
+        {
+          "name": "snyk.InstanceProxyGenerator",
+          "version": "1.0.0.6",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Castle.Core",
+              "version": ">= 4.2.1 < 4.3",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget-OrionPlatform-develop",
+          "repository": "NUGET"
+        },
+        {
+          "name": "snyk.PluginManager",
+          "version": "1.0.0.66",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Castle.Core",
+              "version": ">= 4.2.1 < 4.3",
+              "options": {}
+            },
+            {
+              "name": "Castle.Windsor",
+              "version": ">= 4.1 < 4.2",
+              "options": {}
+            },
+            {
+              "name": "Castle.Windsor.MsDependencyInjection",
+              "version": ">= 3.2 < 3.3",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Configuration.Json",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.DependencyInjection",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+              "version": ">= 2.0 < 2.1",
+              "options": {}
+            },
+            {
+              "name": "snyk.AssemblyInspection",
+              "version": ">= 1.0.0.32 < 1.0.1",
+              "options": {}
+            },
+            {
+              "name": "snyk.InstanceProxyGenerator",
+              "version": ">= 1.0.0.6 < 1.0.1",
+              "options": {}
+            },
+            {
+              "name": "snyk.PluginManager.Contracts",
+              "version": ">= 1.0.0.66 < 1.0.1",
+              "options": {}
+            },
+            {
+              "name": "snyk.ServiceHost.Contracts",
+              "version": ">= 1.0.0.45 < 1.0.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget-OrionPlatform-develop",
+          "repository": "NUGET"
+        },
+        {
+          "name": "snyk.PluginManager.Contracts",
+          "version": "1.0.0.66",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Newtonsoft.Json",
+              "version": ">= 10.0.3 < 10.1",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget-OrionPlatform-develop",
+          "repository": "NUGET"
+        },
+        {
+          "name": "snyk.ServiceHost.Contracts",
+          "version": "1.0.0.45",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "Newtonsoft.Json",
+              "version": ">= 10.0.3",
+              "options": {}
+            }
+          ],
+          "remote": "http://dev-artifactory.dev.local/artifactory/api/nuget/nuget-OrionPlatform-develop",
+          "repository": "NUGET"
+        }
+      ],
+      "options": {
+        "RESTRICTION": "== net462"
+      }
+    }
+  ]
+}

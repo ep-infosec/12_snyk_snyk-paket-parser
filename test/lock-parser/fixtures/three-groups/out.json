@@ -1,0 +1,157 @@
+{
+  "groups": [
+    {
+      "name": null,
+      "repositories": {
+        "NUGET": [
+          "http://api.nuget.org/v3/index.json"
+        ]
+      },
+      "dependencies": [
+        {
+          "name": "NLog",
+          "version": "4.3.11",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://api.nuget.org/v3/index.json",
+          "repository": "NUGET"
+        }
+      ],
+      "options": {
+        "FRAMEWORK": "NET452"
+      }
+    },
+    {
+      "name": "build",
+      "repositories": {
+        "NUGET": [
+          "https://www.nuget.org/api/v2"
+        ]
+      },
+      "dependencies": [
+        {
+          "name": "NLog",
+          "version": "4.3.11",
+          "options": {},
+          "dependencies": [],
+          "remote": "http://api.nuget.org/v3/index.json",
+          "repository": "NUGET"
+        },
+        {
+          "name": "GitVersion",
+          "version": "3.6.4",
+          "options": {},
+          "dependencies": [],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        }
+      ],
+      "options": {
+        "FRAMEWORK": "NET452"
+      }
+    },
+    {
+      "name": "tests",
+      "repositories": {
+        "NUGET": [
+          "https://www.nuget.org/api/v2"
+        ]
+      },
+      "dependencies": [
+        {
+          "name": "GitVersion",
+          "version": "3.6.4",
+          "options": {},
+          "dependencies": [],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit",
+          "version": "2.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "xunit.assert",
+              "version": "2.1",
+              "options": {}
+            },
+            {
+              "name": "xunit.core",
+              "version": "2.1",
+              "options": {}
+            }
+          ],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.abstractions",
+          "version": "2.0",
+          "options": {},
+          "dependencies": [],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.assert",
+          "version": "2.1",
+          "options": {},
+          "dependencies": [],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.core",
+          "version": "2.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "xunit.extensibility.core",
+              "version": "2.1",
+              "options": {}
+            },
+            {
+              "name": "xunit.extensibility.execution",
+              "version": "2.1",
+              "options": {}
+            }
+          ],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.extensibility.core",
+          "version": "2.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "xunit.abstractions",
+              "version": "2.0",
+              "options": {}
+            }
+          ],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        },
+        {
+          "name": "xunit.extensibility.execution",
+          "version": "2.1",
+          "options": {},
+          "dependencies": [
+            {
+              "name": "xunit.extensibility.core",
+              "version": "2.1",
+              "options": {}
+            }
+          ],
+          "remote": "https://www.nuget.org/api/v2",
+          "repository": "NUGET"
+        }
+      ],
+      "options": {
+        "FRAMEWORK": "NET452"
+      }
+    }
+  ]
+}

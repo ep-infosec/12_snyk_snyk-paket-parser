@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "name": null,
+      "repositories": {
+        "NUGET": [
+          "https://api.nuget.org/v3/index.json"
+        ]
+      },
+      "dependencies": [
+        {
+          "name": "FSharp.Charting",
+          "version": "0.90.14",
+          "options": {},
+          "dependencies": [],
+          "remote": "https://api.nuget.org/v3/index.json",
+          "repository": "NUGET"
+        }
+      ],
+      "options": {
+        "IMPORT-TARGETS": "FALSE",
+        "FRAMEWORK": "NET452"
+      }
+    }
+  ]
+}
